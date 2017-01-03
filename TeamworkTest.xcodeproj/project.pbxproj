@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2EDBA7836EA9CC618C1C13E6 /* Pods_TeamworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AA4AF2F949786A37628016 /* Pods_TeamworkTest.framework */; };
-		50FB190F1E1BF3C4001ADDA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB190E1E1BF3C4001ADDA2 /* AppDelegate.swift */; };
-		50FB19111E1BF3C4001ADDA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB19101E1BF3C4001ADDA2 /* ViewController.swift */; };
-		50FB19141E1BF3C4001ADDA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FB19121E1BF3C4001ADDA2 /* Main.storyboard */; };
-		50FB19161E1BF3C4001ADDA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FB19151E1BF3C4001ADDA2 /* Assets.xcassets */; };
-		50FB19191E1BF3C4001ADDA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FB19171E1BF3C4001ADDA2 /* LaunchScreen.storyboard */; };
 		50FB19241E1BF3C4001ADDA2 /* TeamworkTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB19231E1BF3C4001ADDA2 /* TeamworkTestTests.swift */; };
 		50FB192F1E1BF3C4001ADDA2 /* TeamworkTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB192E1E1BF3C4001ADDA2 /* TeamworkTestUITests.swift */; };
+		50FB194B1E1C0BAF001ADDA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FB193D1E1C0BAF001ADDA2 /* Assets.xcassets */; };
+		50FB194C1E1C0BAF001ADDA2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50FB193E1E1C0BAF001ADDA2 /* Info.plist */; };
+		50FB194D1E1C0BAF001ADDA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FB19411E1C0BAF001ADDA2 /* LaunchScreen.storyboard */; };
+		50FB194E1E1C0BAF001ADDA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FB19421E1C0BAF001ADDA2 /* Main.storyboard */; };
+		50FB194F1E1C0BAF001ADDA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB19441E1C0BAF001ADDA2 /* AppDelegate.swift */; };
+		50FB19501E1C0BAF001ADDA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB19451E1C0BAF001ADDA2 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +38,18 @@
 /* Begin PBXFileReference section */
 		1B6A58CDDB43473A8AFB999F /* Pods-TeamworkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest.release.xcconfig"; sourceTree = "<group>"; };
 		50FB190B1E1BF3C4001ADDA2 /* TeamworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		50FB190E1E1BF3C4001ADDA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50FB19101E1BF3C4001ADDA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		50FB19131E1BF3C4001ADDA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50FB19151E1BF3C4001ADDA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		50FB19181E1BF3C4001ADDA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		50FB191A1E1BF3C4001ADDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50FB191F1E1BF3C4001ADDA2 /* TeamworkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamworkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FB19231E1BF3C4001ADDA2 /* TeamworkTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamworkTestTests.swift; sourceTree = "<group>"; };
 		50FB19251E1BF3C4001ADDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50FB192A1E1BF3C4001ADDA2 /* TeamworkTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamworkTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FB192E1E1BF3C4001ADDA2 /* TeamworkTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamworkTestUITests.swift; sourceTree = "<group>"; };
 		50FB19301E1BF3C4001ADDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FB193D1E1C0BAF001ADDA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50FB193E1E1C0BAF001ADDA2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FB19411E1C0BAF001ADDA2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50FB19421E1C0BAF001ADDA2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		50FB19441E1C0BAF001ADDA2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50FB19451E1C0BAF001ADDA2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6FF936675B1BA450B8984FBA /* Pods-TeamworkTest.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTest.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest.adhoc.xcconfig"; sourceTree = "<group>"; };
 		C1AA4AF2F949786A37628016 /* Pods_TeamworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1ECF3D970EE2AB5849ED8C6 /* Pods-TeamworkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,12 +116,13 @@
 		50FB190D1E1BF3C4001ADDA2 /* TeamworkTest */ = {
 			isa = PBXGroup;
 			children = (
-				50FB190E1E1BF3C4001ADDA2 /* AppDelegate.swift */,
-				50FB19101E1BF3C4001ADDA2 /* ViewController.swift */,
-				50FB19121E1BF3C4001ADDA2 /* Main.storyboard */,
-				50FB19151E1BF3C4001ADDA2 /* Assets.xcassets */,
-				50FB19171E1BF3C4001ADDA2 /* LaunchScreen.storyboard */,
-				50FB191A1E1BF3C4001ADDA2 /* Info.plist */,
+				50FB193C1E1C0BAF001ADDA2 /* Resources */,
+				50FB19431E1C0BAF001ADDA2 /* Controllers */,
+				50FB19461E1C0BAF001ADDA2 /* Views */,
+				50FB19471E1C0BAF001ADDA2 /* ViewModels */,
+				50FB19481E1C0BAF001ADDA2 /* Protocols */,
+				50FB19491E1C0BAF001ADDA2 /* Extensions */,
+				50FB194A1E1C0BAF001ADDA2 /* Models */,
 			);
 			path = TeamworkTest;
 			sourceTree = "<group>";
@@ -141,6 +143,77 @@
 				50FB19301E1BF3C4001ADDA2 /* Info.plist */,
 			);
 			path = TeamworkTestUITests;
+			sourceTree = "<group>";
+		};
+		50FB193C1E1C0BAF001ADDA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50FB193D1E1C0BAF001ADDA2 /* Assets.xcassets */,
+				50FB193E1E1C0BAF001ADDA2 /* Info.plist */,
+				50FB193F1E1C0BAF001ADDA2 /* Nibs */,
+				50FB19401E1C0BAF001ADDA2 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		50FB193F1E1C0BAF001ADDA2 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		50FB19401E1C0BAF001ADDA2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				50FB19411E1C0BAF001ADDA2 /* LaunchScreen.storyboard */,
+				50FB19421E1C0BAF001ADDA2 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		50FB19431E1C0BAF001ADDA2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50FB19441E1C0BAF001ADDA2 /* AppDelegate.swift */,
+				50FB19451E1C0BAF001ADDA2 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		50FB19461E1C0BAF001ADDA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50FB19471E1C0BAF001ADDA2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		50FB19481E1C0BAF001ADDA2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		50FB19491E1C0BAF001ADDA2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		50FB194A1E1C0BAF001ADDA2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		B14245B59DC6B2D9ABF40430 /* Frameworks */ = {
@@ -265,9 +338,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50FB19191E1BF3C4001ADDA2 /* LaunchScreen.storyboard in Resources */,
-				50FB19161E1BF3C4001ADDA2 /* Assets.xcassets in Resources */,
-				50FB19141E1BF3C4001ADDA2 /* Main.storyboard in Resources */,
+				50FB194D1E1C0BAF001ADDA2 /* LaunchScreen.storyboard in Resources */,
+				50FB194C1E1C0BAF001ADDA2 /* Info.plist in Resources */,
+				50FB194B1E1C0BAF001ADDA2 /* Assets.xcassets in Resources */,
+				50FB194E1E1C0BAF001ADDA2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +375,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\ncommit=`git rev-parse --short HEAD`\nbranch=`git rev-parse --abbrev-ref HEAD`\nversion=`/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${INFOPLIST_FILE}\"`\n\nfunction processIcon() {\n    export PATH=$PATH:/usr/local/bin\n    base_file=$1\n    base_path=`find ${SRCROOT} -name $base_file`\n\n    if [[ ! -f ${base_path} || -z ${base_path} ]]; then\n        return;\n    fi\n\n    target_file=`echo $base_file | sed \"s/_base//\"`\n    target_path=\"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/${target_file}\"\n\n    if [ $CONFIGURATION = \"Release\" ]; then\n    cp ${base_file} $target_path\n    return\n    fi\n\n    width=`identify -format %w ${base_path}`\n\n    convert -background '#0008' -fill white -gravity center -size ${width}x40\\\n    caption:\"${version} ${branch} ${commit}\"\\\n    ${base_path} +swap -gravity south -composite ${target_path}\n}\n\nprocessIcon \"Icon_base.png\"\nprocessIcon \"Icon@2x_base.png\"\nprocessIcon \"Icon-72_base.png\"\nprocessIcon \"Icon-72@2x_base.png\"\n";
-			showEnvVarsInLog = 1;
 		};
 		46DF9B65109C19B0BAD32B7D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -355,8 +428,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50FB19111E1BF3C4001ADDA2 /* ViewController.swift in Sources */,
-				50FB190F1E1BF3C4001ADDA2 /* AppDelegate.swift in Sources */,
+				50FB19501E1C0BAF001ADDA2 /* ViewController.swift in Sources */,
+				50FB194F1E1C0BAF001ADDA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,25 +463,6 @@
 			targetProxy = 50FB192B1E1BF3C4001ADDA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		50FB19121E1BF3C4001ADDA2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50FB19131E1BF3C4001ADDA2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		50FB19171E1BF3C4001ADDA2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50FB19181E1BF3C4001ADDA2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4993ECD1652D2EEC7071038F /* Adhoc */ = {
@@ -586,7 +640,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XHF7PDLDGF;
-				INFOPLIST_FILE = TeamworkTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TeamworkTest/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Pawel-Nuzka-Mobile-Developers.TeamworkTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -600,7 +654,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XHF7PDLDGF;
-				INFOPLIST_FILE = TeamworkTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TeamworkTest/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Pawel-Nuzka-Mobile-Developers.TeamworkTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -687,7 +741,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XHF7PDLDGF;
-				INFOPLIST_FILE = TeamworkTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TeamworkTest/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Pawel-Nuzka-Mobile-Developers.TeamworkTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -840,6 +894,7 @@
 				6AE127CA4EE9161E0F2987CA /* Adhoc */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50FB19361E1BF3C4001ADDA2 /* Build configuration list for PBXNativeTarget "TeamworkTestTests" */ = {
 			isa = XCConfigurationList;
@@ -849,6 +904,7 @@
 				691AE2DB89602AC449931984 /* Adhoc */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50FB19391E1BF3C4001ADDA2 /* Build configuration list for PBXNativeTarget "TeamworkTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -858,6 +914,7 @@
 				93BF85FDC0BB6E621C042459 /* Adhoc */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
