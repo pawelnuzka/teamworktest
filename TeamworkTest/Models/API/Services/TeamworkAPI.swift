@@ -63,7 +63,6 @@ public func url(_ route: TargetType) -> String {
 }
 
 
-let teamworkService = TeamworkService()
 class TeamworkService {
     func getProjects() -> Promise<[Project]> {
         return fetchProjects().then { response -> Promise<[Project]> in
