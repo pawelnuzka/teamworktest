@@ -6,4 +6,5 @@ target 'TeamworkTest' do
   pod 'Alamofire'
   pod 'PromiseKit', '~> 4.0'
   pod 'PCDatabaseCore', :git => 'git@github.com:LKBKS/PCDatabaseCore.git'
+  pod 'Moya', '8.0.0-beta.6'
 end
