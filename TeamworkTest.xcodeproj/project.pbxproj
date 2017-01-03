@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EDBA7836EA9CC618C1C13E6 /* Pods_TeamworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AA4AF2F949786A37628016 /* Pods_TeamworkTest.framework */; };
 		50FB190F1E1BF3C4001ADDA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB190E1E1BF3C4001ADDA2 /* AppDelegate.swift */; };
 		50FB19111E1BF3C4001ADDA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB19101E1BF3C4001ADDA2 /* ViewController.swift */; };
 		50FB19141E1BF3C4001ADDA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FB19121E1BF3C4001ADDA2 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6A58CDDB43473A8AFB999F /* Pods-TeamworkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest.release.xcconfig"; sourceTree = "<group>"; };
 		50FB190B1E1BF3C4001ADDA2 /* TeamworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FB190E1E1BF3C4001ADDA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FB19101E1BF3C4001ADDA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,9 @@
 		50FB192A1E1BF3C4001ADDA2 /* TeamworkTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeamworkTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FB192E1E1BF3C4001ADDA2 /* TeamworkTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamworkTestUITests.swift; sourceTree = "<group>"; };
 		50FB19301E1BF3C4001ADDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF936675B1BA450B8984FBA /* Pods-TeamworkTest.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTest.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest.adhoc.xcconfig"; sourceTree = "<group>"; };
+		C1AA4AF2F949786A37628016 /* Pods_TeamworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1ECF3D970EE2AB5849ED8C6 /* Pods-TeamworkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EDBA7836EA9CC618C1C13E6 /* Pods_TeamworkTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CEF90A8897F5883923D871C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1ECF3D970EE2AB5849ED8C6 /* Pods-TeamworkTest.debug.xcconfig */,
+				1B6A58CDDB43473A8AFB999F /* Pods-TeamworkTest.release.xcconfig */,
+				6FF936675B1BA450B8984FBA /* Pods-TeamworkTest.adhoc.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		50FB19021E1BF3C4001ADDA2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,8 @@
 				50FB19221E1BF3C4001ADDA2 /* TeamworkTestTests */,
 				50FB192D1E1BF3C4001ADDA2 /* TeamworkTestUITests */,
 				50FB190C1E1BF3C4001ADDA2 /* Products */,
+				1CEF90A8897F5883923D871C /* Pods */,
+				B14245B59DC6B2D9ABF40430 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +143,14 @@
 			path = TeamworkTestUITests;
 			sourceTree = "<group>";
 		};
+		B14245B59DC6B2D9ABF40430 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1AA4AF2F949786A37628016 /* Pods_TeamworkTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,10 +158,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50FB19331E1BF3C4001ADDA2 /* Build configuration list for PBXNativeTarget "TeamworkTest" */;
 			buildPhases = (
+				86BFDB41754CAF368177D4B8 /* [CP] Check Pods Manifest.lock */,
 				50FB19071E1BF3C4001ADDA2 /* Sources */,
 				50FB19081E1BF3C4001ADDA2 /* Frameworks */,
 				50FB19091E1BF3C4001ADDA2 /* Resources */,
 				07BD34CAEE68DF0FB29EACF7 /* icon versioning */,
+				46DF9B65109C19B0BAD32B7D /* [CP] Embed Pods Frameworks */,
+				826CC00916C14D5D5353CF86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +302,51 @@
 			shellPath = /bin/sh;
 			shellScript = "\ncommit=`git rev-parse --short HEAD`\nbranch=`git rev-parse --abbrev-ref HEAD`\nversion=`/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${INFOPLIST_FILE}\"`\n\nfunction processIcon() {\n    export PATH=$PATH:/usr/local/bin\n    base_file=$1\n    base_path=`find ${SRCROOT} -name $base_file`\n\n    if [[ ! -f ${base_path} || -z ${base_path} ]]; then\n        return;\n    fi\n\n    target_file=`echo $base_file | sed \"s/_base//\"`\n    target_path=\"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/${target_file}\"\n\n    if [ $CONFIGURATION = \"Release\" ]; then\n    cp ${base_file} $target_path\n    return\n    fi\n\n    width=`identify -format %w ${base_path}`\n\n    convert -background '#0008' -fill white -gravity center -size ${width}x40\\\n    caption:\"${version} ${branch} ${commit}\"\\\n    ${base_path} +swap -gravity south -composite ${target_path}\n}\n\nprocessIcon \"Icon_base.png\"\nprocessIcon \"Icon@2x_base.png\"\nprocessIcon \"Icon-72_base.png\"\nprocessIcon \"Icon-72@2x_base.png\"\n";
 			showEnvVarsInLog = 1;
+		};
+		46DF9B65109C19B0BAD32B7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		826CC00916C14D5D5353CF86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86BFDB41754CAF368177D4B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -508,6 +582,7 @@
 		};
 		50FB19341E1BF3C4001ADDA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1ECF3D970EE2AB5849ED8C6 /* Pods-TeamworkTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XHF7PDLDGF;
@@ -521,6 +596,7 @@
 		};
 		50FB19351E1BF3C4001ADDA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6A58CDDB43473A8AFB999F /* Pods-TeamworkTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XHF7PDLDGF;
@@ -607,6 +683,7 @@
 		};
 		6AE127CA4EE9161E0F2987CA /* Adhoc */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF936675B1BA450B8984FBA /* Pods-TeamworkTest.adhoc.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XHF7PDLDGF;
