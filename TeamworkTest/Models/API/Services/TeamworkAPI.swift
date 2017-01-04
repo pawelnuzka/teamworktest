@@ -10,6 +10,8 @@ import Foundation
 import Moya
 import PromiseKit
 
+
+// Naive solution, don't really like this pattern
 let TeamworkProvider = MoyaProvider<Teamwork>(
     plugins: [
         NetworkLoggerPlugin(verbose: true),
@@ -66,6 +68,7 @@ public func url(_ route: TargetType) -> String {
 class TeamworkService {
     func getProjects() -> Promise<[Project]> {
         return fetchProjects().then { response -> Promise<[Project]> in
+            // Should add a new layer to save data to database
             return Parser().parseArray(response)
         }
     }

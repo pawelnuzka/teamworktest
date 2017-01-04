@@ -13,6 +13,7 @@ import UIKit
 class DataSource<T>: TableViewLoadingController,
     UITableViewDataSource, UITableViewDelegate {
     
+    // Should base DataSource on NSFetchedResultsController instead of plain array
     var objects: [T] {
         didSet {
             tableView.reloadData()

@@ -9,11 +9,11 @@
 import Foundation
 import UIKit
 
-class SubtitleCell:  UITableViewCell, BaseCellProtocol {
+class SubtitleCell: BaseCell {
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var subtitle: UILabel!
     
-    func load(viewModel: CellModel) {
+    override func load(viewModel: CellModel) {
         if let viewModel = viewModel as? ViewModel {
             title.attributedText = viewModel.attributedTitle
             subtitle.attributedText = viewModel.attributedSubtitle

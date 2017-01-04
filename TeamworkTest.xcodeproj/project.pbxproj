@@ -36,6 +36,10 @@
 		50FB19861E1C5D65001ADDA2 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB19851E1C5D65001ADDA2 /* DataSource.swift */; };
 		50FB19881E1C5F28001ADDA2 /* ProjectsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB19871E1C5F28001ADDA2 /* ProjectsDataSource.swift */; };
 		50FB198A1E1C60F5001ADDA2 /* DataSourceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB19891E1C60F5001ADDA2 /* DataSourceProtocols.swift */; };
+		50FB198C1E1C66B9001ADDA2 /* StaticDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB198B1E1C66B9001ADDA2 /* StaticDataSource.swift */; };
+		50FB198E1E1C6AFA001ADDA2 /* ProjectDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB198D1E1C6AFA001ADDA2 /* ProjectDetailsDataSource.swift */; };
+		50FB19901E1C73D2001ADDA2 /* ProjectDetailsCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB198F1E1C73D2001ADDA2 /* ProjectDetailsCellModel.swift */; };
+		50FB19921E1C741A001ADDA2 /* UIViewController+SegueIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB19911E1C741A001ADDA2 /* UIViewController+SegueIdentifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +94,10 @@
 		50FB19851E1C5D65001ADDA2 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = ../Controllers/DataSource.swift; sourceTree = "<group>"; };
 		50FB19871E1C5F28001ADDA2 /* ProjectsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsDataSource.swift; sourceTree = "<group>"; };
 		50FB19891E1C60F5001ADDA2 /* DataSourceProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceProtocols.swift; sourceTree = "<group>"; };
+		50FB198B1E1C66B9001ADDA2 /* StaticDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticDataSource.swift; sourceTree = "<group>"; };
+		50FB198D1E1C6AFA001ADDA2 /* ProjectDetailsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsDataSource.swift; sourceTree = "<group>"; };
+		50FB198F1E1C73D2001ADDA2 /* ProjectDetailsCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsCellModel.swift; sourceTree = "<group>"; };
+		50FB19911E1C741A001ADDA2 /* UIViewController+SegueIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+SegueIdentifiers.swift"; sourceTree = "<group>"; };
 		6FF936675B1BA450B8984FBA /* Pods-TeamworkTest.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTest.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest.adhoc.xcconfig"; sourceTree = "<group>"; };
 		C1AA4AF2F949786A37628016 /* Pods_TeamworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1ECF3D970EE2AB5849ED8C6 /* Pods-TeamworkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamworkTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TeamworkTest/Pods-TeamworkTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -237,6 +245,7 @@
 				50FB19851E1C5D65001ADDA2 /* DataSource.swift */,
 				50FB19761E1C5BE7001ADDA2 /* ProjectDetails */,
 				50FB19771E1C5BE7001ADDA2 /* Projects */,
+				50FB198B1E1C66B9001ADDA2 /* StaticDataSource.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -257,6 +266,7 @@
 				50FB19631E1C4E93001ADDA2 /* TimeZone+UTC.swift */,
 				50FB19651E1C4EB1001ADDA2 /* Date+Formatting.swift */,
 				50FB196E1E1C55B6001ADDA2 /* UITableView+DequeCell.swift */,
+				50FB19911E1C741A001ADDA2 /* UIViewController+SegueIdentifiers.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -320,6 +330,8 @@
 		50FB19761E1C5BE7001ADDA2 /* ProjectDetails */ = {
 			isa = PBXGroup;
 			children = (
+				50FB198D1E1C6AFA001ADDA2 /* ProjectDetailsDataSource.swift */,
+				50FB198F1E1C73D2001ADDA2 /* ProjectDetailsCellModel.swift */,
 			);
 			path = ProjectDetails;
 			sourceTree = "<group>";
@@ -584,14 +596,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				50FB19861E1C5D65001ADDA2 /* DataSource.swift in Sources */,
+				50FB198E1E1C6AFA001ADDA2 /* ProjectDetailsDataSource.swift in Sources */,
 				50FB19571E1C1CC6001ADDA2 /* TeamworkAPI.swift in Sources */,
 				50FB197D1E1C5C33001ADDA2 /* ProjectsViewController.swift in Sources */,
 				50FB198A1E1C60F5001ADDA2 /* DataSourceProtocols.swift in Sources */,
 				50FB196B1E1C555F001ADDA2 /* TitleCell.swift in Sources */,
 				50FB19841E1C5D2B001ADDA2 /* TableViewLoadingController.swift in Sources */,
 				50FB19601E1C2EE4001ADDA2 /* NSError+APIErrors.swift in Sources */,
+				50FB19901E1C73D2001ADDA2 /* ProjectDetailsCellModel.swift in Sources */,
 				50FB19751E1C5AB5001ADDA2 /* DescriptionCell.swift in Sources */,
 				50FB19881E1C5F28001ADDA2 /* ProjectsDataSource.swift in Sources */,
+				50FB19921E1C741A001ADDA2 /* UIViewController+SegueIdentifiers.swift in Sources */,
 				50FB195C1E1C2E3C001ADDA2 /* APIModelError.swift in Sources */,
 				50FB19711E1C5A37001ADDA2 /* SubtitleCell.swift in Sources */,
 				50FB19621E1C3E6A001ADDA2 /* Parser.swift in Sources */,
@@ -599,6 +614,7 @@
 				50FB196F1E1C55B6001ADDA2 /* UITableView+DequeCell.swift in Sources */,
 				50FB196D1E1C5592001ADDA2 /* CellProtocols.swift in Sources */,
 				50FB19821E1C5CA5001ADDA2 /* SegueIdentifiers.swift in Sources */,
+				50FB198C1E1C66B9001ADDA2 /* StaticDataSource.swift in Sources */,
 				50FB195E1E1C2E86001ADDA2 /* APIModel.swift in Sources */,
 				50FB19641E1C4E93001ADDA2 /* TimeZone+UTC.swift in Sources */,
 				50FB19661E1C4EB1001ADDA2 /* Date+Formatting.swift in Sources */,

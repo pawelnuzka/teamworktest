@@ -36,10 +36,20 @@ class ProjectsViewController: UIViewController {
             self?.dataSource.removeLoadingView()
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch (segue.destination, SegueIdentifier(rawValue: segue.identifier ?? "")) {
+        case (let viewController as ProjectDetailsViewController, .showProjectDetails?):
+            viewController.project = sender as? Project
+        default:
+            break
+        }
+    }
 }
 
 extension ProjectsViewController: DataSourceProtocol {
-    func didSelectItem(_ item: Any?) {
-        
+    func didSelect(item: AnyObject?) {
+        guard let project = item as? Project else { return }
+        performSegue(withIdentifier: .showProjectDetails, sender: project)
     }
 }

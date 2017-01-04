@@ -28,3 +28,8 @@ protocol CellLoadDataProtocol {
 }
 
 protocol BaseCellProtocol: CellIdentifierProtocol, CellLoadDataProtocol {}
+
+
+class BaseCell: UITableViewCell, BaseCellProtocol {
+     func load(viewModel: CellModel) {}
+}

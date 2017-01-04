@@ -8,17 +8,22 @@
 
 import Foundation
 import UIKit
+import AlamofireImage
 
-class ImageCell: UITableViewCell, BaseCellProtocol {
+class ImageCell: BaseCell {
     @IBOutlet weak var photoView: UIImageView!
     
-    func load(viewModel: CellModel) {
+    override func load(viewModel: CellModel) {
         if let viewModel = viewModel as? ViewModel {
-            photoView.image = viewModel.image
+            photoView.af_setImage(
+                withURL: viewModel.image,
+                placeholderImage: UIImage(named: "placeholder")!
+            )
+            //Should add image caching mechanism, this is naive solution
         }
     }
     
     struct ViewModel: CellModel {
-        let image: UIImage
+        let image: URL
     }
 }

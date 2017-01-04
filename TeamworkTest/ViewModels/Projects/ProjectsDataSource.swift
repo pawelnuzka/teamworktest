@@ -32,8 +32,8 @@ class ProjectsDataSource: DataSource<Project> {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: IndexPath) {
-        if let data = viewModel(at: indexPath) {
-            self.delegate.didSelectItem(data)
+        if let data = data(at: indexPath) {
+            delegate.didSelect(item: data)
         }
     }
     

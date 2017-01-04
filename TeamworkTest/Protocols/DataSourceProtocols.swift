@@ -9,5 +9,5 @@
 import Foundation
 
 @objc protocol DataSourceProtocol: class {
-    func didSelectItem(_ item: Any?)
+    func didSelect(item: AnyObject?)
 }

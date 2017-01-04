@@ -44,10 +44,10 @@ class Project: APIModel {
     let endDate: Date
     let company: String
     let starred: Bool
-    let announcement: String
+    let announcement: String?
     let status: String
-    let logo: String
-    let info: String
+    let logo: URL?
+    let info: String?
     
     override class var requiredKeys: [String] {
         return ProjectKeys.requiredKeys
@@ -61,9 +61,9 @@ class Project: APIModel {
         id: String, name: String,
         createDate: Date, startDate: Date,
         endDate: Date, company: String,
-        starred: Bool, announcement: String,
-        status: String, logo: String,
-        info: String
+        starred: Bool, announcement: String?,
+        status: String, logo: URL?,
+        info: String?
         ) {
         self.id = id
         self.name = name
@@ -94,16 +94,16 @@ class Project: APIModel {
         
         let company = json[ProjectKeys.company.rawValue, ProjectKeys.name.rawValue].string
         let starred = json[ProjectKeys.starred.rawValue].bool
-        let announcement = json[ProjectKeys.announcement.rawValue].stringValue
+        let announcement = json[ProjectKeys.announcement.rawValue].string
         let status = json[ProjectKeys.status.rawValue].string
-        let logo = json[ProjectKeys.logo.rawValue].string
-        let info = json[ProjectKeys.info.rawValue].stringValue
+        let logoString = json[ProjectKeys.logo.rawValue].stringValue
+        let logo = URL(string: logoString)
+        let info = json[ProjectKeys.info.rawValue].string
         
         if let id = id, let name = name,
             let createDate = createDate, let startDate = startDate,
             let endDate = endDate, let company = company,
-            let starred = starred, let status = status,
-            let logo = logo {
+            let starred = starred, let status = status {
             return self.init(
                 id: id, name: name, createDate: createDate,
                 startDate: startDate, endDate: endDate,
